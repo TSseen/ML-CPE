@@ -8,7 +8,7 @@ Repository นี้ใช้สำหรับรวบรวมงานปฏ
 - **Section:** 2
 - **Semester:** 1/2569
 - **Program:** Computer Engineering, RMUTT
-- **Author:** Chirawat (GitHub: [@TSseen](https://github.com/TSseen))
+- **Author:** Thirawat Saengklin (GitHub: [@TSseen](https://github.com/TSseen))
 
 ---
 
