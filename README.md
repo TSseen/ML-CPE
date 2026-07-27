@@ -18,9 +18,10 @@ Repository นี้ใช้สำหรับรวบรวมงานปฏ
 
 | โฟลเดอร์ | รายละเอียด (Description) | สถานะ |
 | :--- | :--- | :---: |
-| [LAB01](./LAB01) | พื้นฐานคณิตศาสตร์และเครื่องมือสำหรับ ML | ✅ |
-| [LAB02](./LAB02) | Data Preprocessing & Exploratory Data Analysis (EDA) | 🚧 |
-| [LAB03](./LAB03) | *(รออัปเดต)* | ⏳ |
+| [LAB01](./LAB01) | ---------------------------------------------------- | 🤔 |
+| [LAB02](./LAB02) | Data Preprocessing & Exploratory Data Analysis (EDA) | ✅️ |
+| [LAB03](./LAB03) | Regression & Classification  | ⏳ |
+| [LAB04](./LAB04) | *(รออัปเดต)* | ⏳ |
 
 *(หมายเหตุ: สามารถคลิกที่ชื่อโฟลเดอร์เพื่อดูโค้ดและรายละเอียดของแต่ละ LAB ได้)*
 
