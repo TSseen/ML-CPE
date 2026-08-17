@@ -6,7 +6,8 @@
 ![Scikit-Learn](https://img.shields.io/badge/Library-Scikit--Learn-orange.svg)
 ![Status](https://img.shields.io/badge/Status-Completed-success.svg)
 
-
+## Dataset
+- **The Simpsons Characters Data** (จาก Kaggle) https://www.kaggle.com/datasets/alexattia/the-simpsons-characters-dataset
 
 </div>
 
