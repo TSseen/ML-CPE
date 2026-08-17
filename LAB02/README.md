@@ -34,7 +34,7 @@ ML-3-regression-and-classification/
 ├── Dataset             # dataset
 |   ├── thai_road_accident_2019_2022.csv
 |
-├── ML_LAB02_Data_Preprocessing.inpy       
+├── ML_LAB02_Data_Preprocessing.ipynb      
 
 
 ```
