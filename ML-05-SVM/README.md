@@ -6,7 +6,7 @@
 ![Scikit-Learn](https://img.shields.io/badge/Library-Scikit--Learn-orange.svg)
 ![Status](https://img.shields.io/badge/Status-Completed-success.svg)
 
-A machine learning pipeline for classifying **Cats and Dogs** images using **Support Vector Machine (SVM)** with multiple kernels and automated evaluation.
+
 
 </div>
 
