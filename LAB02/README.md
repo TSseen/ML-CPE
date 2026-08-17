@@ -29,7 +29,7 @@
 
 ```text
 
-ML-3-regression-and-classification/
+ML-02-Data-Preprocessing/
 │
 ├── Dataset             # dataset
 |   ├── thai_road_accident_2019_2022.csv
