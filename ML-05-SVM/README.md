@@ -1,6 +1,5 @@
-</div>
 # ML-05-Support Vector Machine (SVM) 
-</div>
+
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)
