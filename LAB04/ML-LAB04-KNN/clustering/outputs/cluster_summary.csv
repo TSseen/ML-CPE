@@ -1,0 +1,5 @@
+﻿cluster,fixed acidity,volatile acidity,citric acid,residual sugar,chlorides,free sulfur dioxide,total sulfur dioxide,density,pH,sulphates,alcohol,member count
+0,7.6,0.6,0.1,2.2,0.1,11.2,33.9,1.0,3.4,0.6,9.9,406
+1,7.1,0.5,0.2,2.2,0.1,17.3,38.4,1.0,3.4,0.7,11.8,236
+2,10.6,0.4,0.5,2.8,0.1,10.5,31.1,1.0,3.2,0.8,10.6,267
+3,8.2,0.5,0.3,3.1,0.1,27.3,91.3,1.0,3.3,0.6,9.8,234
