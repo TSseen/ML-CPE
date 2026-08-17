@@ -6,12 +6,12 @@
 - **Wine Quality Dataset** (จาก Kaggle) https://www.kaggle.com/datasets/yasserh/wine-quality-dataset
 - จัดเก็บในโฟลเดอร์: `Dataset/WineQT.csv`
 
-## Project Structure
+## 📂 Project Structure
+
+```text
 ML-LAB04-KNN/
-│
 ├── Dataset/
 │   └── WineQT.csv
-│
 ├── classification/
 │   ├── main.py
 │   ├── data_loader.py
@@ -21,7 +21,6 @@ ML-LAB04-KNN/
 │       ├── 01_k_curve.png
 │       ├── 02_confusion_matrix.png
 │       └── predictions.csv
-│
 ├── clustering/
 │   ├── main.py
 │   ├── data_loader.py
@@ -33,6 +32,5 @@ ML-LAB04-KNN/
 │       ├── 02_clusters.png
 │       ├── cluster_summary.csv
 │       └── clustered_animals.csv
-│
 ├── requirements.txt
 └── link-data.txt
