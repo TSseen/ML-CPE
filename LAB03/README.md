@@ -17,6 +17,37 @@
 5. **วิเคราะห์และอธิบายผลลัพธ์ของแบบจำลอง:** ด้วยตัวชี้วัดที่เหมาะสม เช่น Accuracy, Precision, Recall, F1-score, ROC Curve และ AUC รวมถึงนำเสนอผลงานผ่าน GitHub เพื่อจัดทำ Portfolio และเผยแพร่ผลงานทางวิชาการต่อไป
 
 ---
+## 📂 Project Structure
+
+```text
+
+ML-3-regression-and-classification/
+│
+├── age_gender.csv              # dataset 
+├── data_loader.py              # read CSV: all 
+├── main.py                     # run all 
+│
+├── others_dir/                
+│   ├── pixels.npy
+│   └── meta.csv
+│
+├── regression/
+│   ├── main.py
+│   ├── model.py                # StandardScaler → PCA → Ridge
+│   ├── evaluate.py             # MAE, RMSE, R², graph
+│   └── outputs/
+│       ├── regression_results.png
+│       └── age_samples.png
+│
+├── classification/
+│   ├── main.py
+│   ├── model.py                # StandardScaler → PCA → LogisticRegression
+│   ├── evaluate.py             # accuracy, report, confusion matrix
+│   └── outputs/
+│       ├── confusion_matrix.png
+│       └── gender_samples.png
+└── requirements.txt
+```
 
 ## 🛠️ ขั้นตอนการทดลอง
 
