@@ -1,15 +1,16 @@
-# ML-05-Support Vector Machine (SVM) |
+# ML-05-Support Vector Machine (SVM) 
 
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)
 ![Scikit-Learn](https://img.shields.io/badge/Library-Scikit--Learn-orange.svg)
 ![Status](https://img.shields.io/badge/Status-Completed-success.svg)
+</div>
 
 ## Dataset
-- **The Simpsons Characters Data** (จาก Kaggle) https://www.kaggle.com/datasets/alexattia/the-simpsons-characters-dataset
+-**The Simpsons Characters Data** (จาก Kaggle) https://www.kaggle.com/datasets/alexattia/the-simpsons-characters-dataset
 
-</div>
+
 
 ---
 
