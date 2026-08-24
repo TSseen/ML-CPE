@@ -21,11 +21,11 @@ Repository นี้ใช้สำหรับรวบรวมงานปฏ
 | [LAB01](./ML-01-Intro) | ---------------------------------------------------- | 🤔 |
 | [LAB02](./ML-02-Data Preprocessing) | Data Preprocessing & Exploratory Data Analysis (EDA) | ✅️ |
 | [LAB03](./ML-03-Regression-Classification) | Regression & Classification  | ✅️ |
-| [LAB04](./LAB04) | K-Nearest Neighbors (KNN) | ✅️ |
-| [LAB05](./LAB05) | Support Vector Machine (SVM) | ✅️ |
-| [LAB06](./LAB06) | *(รออัปเดต)* | ⏳ |
-| [LAB07](./LAB07) | *(รออัปเดต)* | ⏳ |
-| [LAB08](./LAB08) | *(รออัปเดต)* | ⏳ |
+| [LAB04](./ML-04-KNN) | K-Nearest Neighbors (KNN) | ✅️ |
+| [LAB05](./ML-05-SVM) | Support Vector Machine (SVM) | ✅️ |
+| [LAB06](./ML-06-NN) | *(รออัปเดต)* | ⏳ |
+| [LAB07](./ML-07-CNN) | *(รออัปเดต)* | ⏳ |
+| [LAB08](./ML-08-DCNN) | *(รออัปเดต)* | ⏳ |
 | [LAB09](./LAB09) | *(รออัปเดต)* | ⏳ |
 | [LAB10](./LAB10) | *(รออัปเดต)* | ⏳ |
 
