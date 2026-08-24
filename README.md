@@ -22,7 +22,7 @@ Repository นี้ใช้สำหรับรวบรวมงานปฏ
 | [LAB02](./LAB02) | Data Preprocessing & Exploratory Data Analysis (EDA) | ✅️ |
 | [LAB03](./LAB03) | Regression & Classification  | ✅️ |
 | [LAB04](./LAB04) | K-Nearest Neighbors (KNN) | ✅️ |
-| [LAB05](./LAB05) | *(รออัปเดต)* | ⏳ |
+| [LAB05](./LAB05) | Support Vector Machine (SVM) | ✅️ |
 | [LAB06](./LAB06) | *(รออัปเดต)* | ⏳ |
 | [LAB07](./LAB07) | *(รออัปเดต)* | ⏳ |
 | [LAB08](./LAB08) | *(รออัปเดต)* | ⏳ |
