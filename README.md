@@ -20,7 +20,7 @@ Repository นี้ใช้สำหรับรวบรวมงานปฏ
 | :--- | :--- | :---: |
 | [LAB01](./ML-01-Intro) | ---------------------------------------------------- | 🤔 |
 | [LAB02](./ML-02-Data Preprocessing) | Data Preprocessing & Exploratory Data Analysis (EDA) | ✅️ |
-| [LAB03](./LAB03) | Regression & Classification  | ✅️ |
+| [LAB03](./ML-03-Regression-Classification) | Regression & Classification  | ✅️ |
 | [LAB04](./LAB04) | K-Nearest Neighbors (KNN) | ✅️ |
 | [LAB05](./LAB05) | Support Vector Machine (SVM) | ✅️ |
 | [LAB06](./LAB06) | *(รออัปเดต)* | ⏳ |
