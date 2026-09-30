@@ -23,7 +23,7 @@ Repository นี้ใช้สำหรับรวบรวมงานปฏ
 | [LAB03](./ML-03-Regression-Classification) | Regression & Classification  | ✅️ |
 | [LAB04](./ML-04-KNN) | K-Nearest Neighbors (KNN) | ✅️ |
 | [LAB05](./ML-05-SVM) | Support Vector Machine (SVM) | ✅️ |
-| [LAB06](./ML-06-NN) | *(รออัปเดต)* | ⏳ |
+| [LAB06](./ML-06-NN) | Neural Network | ✅️ |
 | [LAB07](./ML-07-CNN) | *(รออัปเดต)* | ⏳ |
 | [LAB08](./ML-08-DCNN) | *(รออัปเดต)* | ⏳ |
 | [LAB09](./LAB09) | *(รออัปเดต)* | ⏳ |
