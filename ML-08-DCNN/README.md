@@ -6,13 +6,13 @@
 
 **New Plant Diseases Dataset (Augmented)** : https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset
 
-ชุดข้อมูลภาพใบแอปเปิลสำหรับจำแนกโรค แบ่งเป็น 4 คลาส  ได้แก่ Apple scab, Black rot, Cedar apple rust และ Healthy ชุดทดสอบมีทั้งหมด 1,943 รูป (504, 497, 440 และ 502 รูปตามลำดับ) ซึ่งกระจายตัวค่อนข้างสมดุล จึงใช้ Accuracy เป็นตัวชี้วัดหลักได้อย่างเหมาะสม
+โปรเจกต์นี้ใช้ชุดข้อมูลภาพใบแอปเปิลมาทำ Image Classification เพื่อแยกโรค 4 คลาส ได้แก่ Apple scab, Black rot, Cedar apple rust และ Healthy (ใบปกติ) โดยในชุดทดสอบมีรูปทั้งหมด 1,943 รูป (แบ่งเป็น 504, 497, 440 และ 502 รูปตามลำดับ) จำนวนรูปแต่ละคลาสค่อนข้างบาลานซ์กัน เราจึงเลือกใช้ค่า Accuracy เป็นตัววัดผลหลักได้เลย
 
 ---
 
 ## 📌 Project Overview
 
-โปรเจกต์นี้เปรียบเทียบประสิทธิภาพของ Deep Convolutional Neural Network (DCNN) แบบ Transfer Learning 3 สถาปัตยกรรม คือ MobileNetV2, VGG16 และ ResNet50 ในการจำแนกโรคจากภาพใบแอปเปิล โดยใช้โมเดลที่ผ่านการเทรนบน ImageNet มาก่อนแล้วนำมาปรับให้เข้ากับงานนี้ เทรนทุกโมเดลภายใต้เงื่อนไขเดียวกันเป็นเวลา 10 Epochs แล้วนำผลมาเทียบกันผ่านกราฟ Training/Validation Accuracy และ Confusion Matrix
+งานนี้เน้นเปรียบเทียบความแม่นยำของโมเดล DCNN 3 ตัว ได้แก่ MobileNetV2, VGG16 และ ResNet50 โดยใช้เทคนิค Transfer Learning (ดึงโมเดลที่เคยเทรนกับ ImageNet มาปรับใช้) เราตั้งค่าให้เทรนเหมือนกันที่ 10 Epochs เพื่อดูว่าใครจะทำผลงานได้ดีกว่าและเข้ากับโจทย์นี้ที่สุด โดยวัดผลจากกราฟ Accuracy และ Confusion Matrix
 
 ---
 
