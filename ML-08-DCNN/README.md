@@ -3,14 +3,16 @@
 ![Python](https://img.shields.io/badge/Python-3.11+-blue.svg) ![Library](https://img.shields.io/badge/Library-PyTorch%20%2F%20TensorFlow-orange.svg) ![Status](https://img.shields.io/badge/Status-Completed-brightgreen.svg)
 
 ## Dataset
+
 **New Plant Diseases Dataset (Augmented)** : https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset
-ชุดข้อมูลภาพใบแอปเปิลสำหรับจำแนกโรค แบ่งเป็น 4 คลาส ได้แก่ Apple scab, Black rot, Cedar apple rust และ Healthy ชุดทดสอบมีทั้งหมด 1,943 รูป (504, 497, 440 และ 502 รูปตามลำดับ) ซึ่งกระจายตัวค่อนข้างสมดุล จึงใช้ Accuracy เป็นตัวชี้วัดหลักได้อย่างเหมาะสม
+
+ชุดข้อมูลภาพใบแอปเปิลสำหรับจำแนกโรค แบ่งเป็น 4 คลาส  ได้แก่ Apple scab, Black rot, Cedar apple rust และ Healthy ชุดทดสอบมีทั้งหมด 1,943 รูป (504, 497, 440 และ 502 รูปตามลำดับ) ซึ่งกระจายตัวค่อนข้างสมดุล จึงใช้ Accuracy เป็นตัวชี้วัดหลักได้อย่างเหมาะสม
 
 ---
 
 ## 📌 Project Overview
 
-โปรเจกต์นี้เปรียบเทียบประสิทธิภาพของสถาปัตยกรรม CNN แบบ Transfer Learning 3 โมเดล คือ MobileNetV2, VGG16 และ ResNet50 ในการจำแนกโรคจากภาพใบแอปเปิล โดยเทรนทุกโมเดลภายใต้เงื่อนไขเดียวกันเป็นเวลา 10 Epochs แล้วนำผลมาเทียบกันผ่านกราฟ Training/Validation Accuracy และ Confusion Matrix
+โปรเจกต์นี้เปรียบเทียบประสิทธิภาพของ Deep Convolutional Neural Network (DCNN) แบบ Transfer Learning 3 สถาปัตยกรรม คือ MobileNetV2, VGG16 และ ResNet50 ในการจำแนกโรคจากภาพใบแอปเปิล โดยใช้โมเดลที่ผ่านการเทรนบน ImageNet มาก่อนแล้วนำมาปรับให้เข้ากับงานนี้ เทรนทุกโมเดลภายใต้เงื่อนไขเดียวกันเป็นเวลา 10 Epochs แล้วนำผลมาเทียบกันผ่านกราฟ Training/Validation Accuracy และ Confusion Matrix
 
 ---
 
@@ -46,20 +48,22 @@ Confusion Matrix สะท้อนปัญหานี้ชัดเจน �
 
 ### สรุป
 
-MobileNetV2 ให้ความแม่นยำสูงสุดที่ 99.28% และเรียนรู้เร็วที่สุด อีกทั้งเป็นโมเดลขนาดเล็กที่เบาที่สุดในสามตัว จึงเหมาะที่สุดสำหรับนำไปใช้งานจริงหรือรันบนอุปกรณ์ที่มีทรัพยากรจำกัด VGG16 เป็นตัวเลือกที่ดีรองลงมาด้วยความแม่นยำ 97.53% แต่เป็นโมเดลที่ใหญ่และหนักกว่า ส่วน ResNet50 ต้องปรับการตั้งค่าและเทรนเพิ่มก่อนจึงจะเปรียบเทียบได้อย่างเป็นธรรม
+จากการเปรียบเทียบ DCNN ทั้งสามสถาปัตยกรรม MobileNetV2 ให้ความแม่นยำสูงสุดที่ 99.28% และเรียนรู้เร็วที่สุด อีกทั้งเป็นโมเดลขนาดเล็กที่เบาที่สุดในสามตัว จึงเหมาะที่สุดสำหรับนำไปใช้งานจริงหรือรันบนอุปกรณ์ที่มีทรัพยากรจำกัด VGG16 เป็นตัวเลือกที่ดีรองลงมาด้วยความแม่นยำ 97.53% แต่เป็นโมเดลที่ใหญ่และหนักกว่า ส่วน ResNet50 ต้องปรับการตั้งค่าและเทรนเพิ่มก่อนจึงจะเปรียบเทียบได้อย่างเป็นธรรม
 
 ---
-
 ## 📁 Project Structure
 
 ```text
-ML-07-CNN/
-└── mini-proj/
-    ├── outputs/                 # ผลลัพธ์ (กราฟ, Weights ของโมเดล, Logs)
-    ├── cnn_model.py             # โครงสร้างสถาปัตยกรรมของโมเดล
-    ├── data_loader.py           # โหลด Dataset และสร้าง Data Batches
-    ├── evaluate.py              # ประเมินโมเดล (Accuracy, Confusion Matrix)
-    ├── main.py                  # รัน Training Pipeline
-    ├── preprocessing.py         # Image Preprocessing และ Data Augmentation
-    └── test_cnn.py              # ทดสอบการทำนายรูปภาพใหม่ (Inference)
+ML-08-DCNN/
+├── mini-proj/
+│   ├── data_loader.py           # โหลด Dataset และสร้าง Data Batches
+│   ├── evaluate.py              # ประเมินโมเดล (Accuracy)
+│   ├── generate_cm.py           # สร้างภาพ Confusion Matrix ของแต่ละโมเดล
+│   ├── main.py                  # รัน Training Pipeline
+│   ├── models.py                # สร้างโมเดล MobileNetV2, VGG16 และ ResNet50
+│   ├── predict.py               # ทำนายโรคจากรูปใบแอปเปิลใหม่ (Inference)
+│   ├── preprocessing.py         # Image Preprocessing และ Data Augmentation
+│   ├── split_data.py            # แบ่งข้อมูลเป็นชุด Train / Validation / Test
+│   └── test_vgg.py              # ทดสอบโมเดล VGG16
+└── outputs/                     # ผลลัพธ์ (กราฟ, Weights ของโมเดล, Logs)
 ```
