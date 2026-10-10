@@ -1,4 +1,4 @@
-# ML-07-Convolutional Neural Network (CNN)
+# ML-08-Deep Convolutional Neural Network (DCNN)
 
 ![Python](https://img.shields.io/badge/Python-3.11+-blue.svg) ![Library](https://img.shields.io/badge/Library-PyTorch%20%2F%20TensorFlow-orange.svg) ![Status](https://img.shields.io/badge/Status-Completed-brightgreen.svg)
 
