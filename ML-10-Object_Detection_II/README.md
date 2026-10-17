@@ -29,7 +29,7 @@
 เมื่อทำการทดสอบผ่านสคริปต์ `realtime_test.py` โมเดลสามารถตรวจจับและแสดงกรอบพิกัดพร้อมค่าความมั่นใจ (Confidence Score) ได้อย่างแม่นยำในแต่ละสถานการณ์:
 
 ### 1. ไม่สวมหน้ากาก (`without_mask`)
-![Without Mask](./without_mask.png)
+[![Without Mask](./without_mask.png)](https://github.com/TSseen/ML-CPE/blob/main/ML-10-Object_Detection_II/mini-proj/without_mask.png)
 
 ### 2. สวมหน้ากากถูกต้อง (`with_mask`)
 ![With Mask](./with_mask.png)
