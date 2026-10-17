@@ -1,4 +1,4 @@
-﻿# ML-10-Object Detection II
+# ML-10-Object Detection II
 
 ![Python](https://img.shields.io/badge/Python-3.11+-blue.svg) ![Library](https://img.shields.io/badge/Library-Ultralytics%20YOLO-orange.svg) ![Status](https://img.shields.io/badge/Status-Completed-brightgreen.svg)
 
@@ -26,16 +26,16 @@
 
 ## 📊 ผลการทดสอบและการแสดงผลผ่านเว็บแคม (Real-time Detection Results)
 
-เมื่อทำการทดสอบผ่านสคริปต์ `realtest_test.py` โมเดลสามารถตรวจจับและแสดงกรอบพิกัดพร้อมค่าความมั่นใจ (Confidence Score) ได้อย่างแม่นยำในแต่ละสถานการณ์:
+เมื่อทำการทดสอบผ่านสคริปต์ `realtime_test.py` โมเดลสามารถตรวจจับและแสดงกรอบพิกัดพร้อมค่าความมั่นใจ (Confidence Score) ได้อย่างแม่นยำในแต่ละสถานการณ์:
 
 ### 1. ไม่สวมหน้ากาก (`without_mask`)
-![Without Mask](./สกรีนช็อต%202026-10-18%20003501.png)
+![Without Mask](./without_mask.png)
 
 ### 2. สวมหน้ากากถูกต้อง (`with_mask`)
-![With Mask](./สกรีนช็อต%202026-10-18%20004015.png)
+![With Mask](./with_mask.png)
 
 ### 3. สวมหน้ากากไม่ถูกต้อง / ไว้ใต้คาง (`mask_weared_incorrect`)
-![Incorrect Mask](./สกรีนช็อต%202026-10-18%20004030.png)
+![Incorrect Mask](./incorrect_mask.png)
 
 ---
 
@@ -52,15 +52,3 @@ python image_test.py
 
 # 3. ทดสอบแบบเรียลไทม์ผ่านเว็บแคม (กด 'q' เพื่อออก)
 python realtime_test.py
-
-📁 Project Structure
-ML-10-Object Detection II/
-├── dataset/                    # ข้อมูลสำหรับเทรน/ทดสอบ (YOLO format)
-│   ├── train/{images,labels}/
-│   ├── val/{images,labels}/
-│   └── test/{images,labels}/
-├── mask_detect/                # โฟลเดอร์เก็บน้ำหนักโมเดล (weights/best.pt)
-├── realtime_test.py            # สคริปต์ทดสอบระบบแบบเรียลไทม์ผ่านเว็บแคม
-├── image_test.py               # สคริปต์ทดสอบกับภาพนิ่ง
-├── requirements.txt            # รายชื่อไลบรารีที่ต้องใช้
-└── README.md                   # เอกสารประกอบโปรเจกต์
