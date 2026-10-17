@@ -51,5 +51,31 @@ Repository นี้ใช้สำหรับรวบรวมงานปฏ
 ## 🚀 วิธีการใช้งาน (How to Use)
 
 1. Clone repository นี้ลงในเครื่องของคุณ:
-   ```bash
-   git clone [https://github.com/TSseen/ML-CPE.git](https://github.com/TSseen/ML-CPE.git)
+
+```bash
+git clone https://github.com/TSseen/ML-CPE.git
+cd ML-CPE
+```
+
+2. สร้าง virtual environment และเปิดใช้งาน (Windows):
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+3. ติดตั้งไลบรารี โดยเข้าไปในโฟลเดอร์ LAB ที่ต้องการ ถ้ามีไฟล์ `requirements.txt` ให้ติดตั้งจากไฟล์นั้น:
+
+```bash
+cd ML-09-Object_Detection_I
+pip install -r requirements.txt
+```
+
+4. สำหรับ LAB ที่เป็น Notebook (`.ipynb`) ให้เปิดด้วย Jupyter หรือ VS Code:
+
+```bash
+pip install jupyter
+jupyter notebook
+```
+
+*(หมายเหตุ: บาง LAB ต้องดาวน์โหลดชุดข้อมูลจาก Kaggle เพิ่มเอง ดูรายละเอียดใน README ของแต่ละโฟลเดอร์ เช่น [ML-09](https://github.com/TSseen/ML-CPE/blob/main/ML-09-Object_Detection_I))*
