@@ -32,7 +32,7 @@
 [![Without Mask](./without_mask.png)](https://github.com/TSseen/ML-CPE/blob/main/ML-10-Object_Detection_II/mini-proj/without_mask.png)
 
 ### 2. สวมหน้ากากถูกต้อง (`with_mask`)
-![With Mask](./with_mask.png)
+[![With Mask](./with_mask.png)](https://github.com/TSseen/ML-CPE/blob/main/ML-10-Object_Detection_II/mini-proj/with_mask.png)
 
 ### 3. สวมหน้ากากไม่ถูกต้อง / ไว้ใต้คาง (`mask_weared_incorrect`)
 ![Incorrect Mask](./incorrect_mask.png)
