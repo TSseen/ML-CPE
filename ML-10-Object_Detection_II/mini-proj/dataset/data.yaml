@@ -1,0 +1,6 @@
+path: C:/ML-10-Object Detection II/dataset
+train: train/images
+val: val/images
+test: test/images
+nc: 3
+names: ['with_mask', 'without_mask', 'mask_weared_incorrect']
