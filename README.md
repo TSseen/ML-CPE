@@ -30,7 +30,7 @@ Repository นี้ใช้สำหรับรวบรวมงานปฏ
 | [LAB07](./ML-07-CNN) | Convolutional Neural Network (CNN) | ✅️ |
 | [LAB08](./ML-08-DCNN) | Deep Convolutional Neural Network (DCNN) | ✅️ |
 | [LAB09](./ML-09-Object_Detection_I) | Object Detection I (R-CNN, Fast R-CNN) | ✅️ |
-| [LAB10](./ML-10-Object_Detection_II) | *(รออัปเดต)* | ⏳ |
+| [LAB10](./ML-10-Object_Detection_II) | Object Detection II | ✅️ |
 
 
 *(หมายเหตุ: สามารถคลิกที่ชื่อโฟลเดอร์เพื่อดูโค้ดและรายละเอียดของแต่ละ LAB ได้)*
